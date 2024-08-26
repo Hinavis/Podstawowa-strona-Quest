@@ -1,0 +1,160 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --LightBlue: rgb(76, 146, 252) ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+
+.NavButtons > div >  a{
+    text-decoration: none;
+    color: var(--LightBlue);
+    transition: 0.5s ease-in-out;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+a:visited{
+    color: var(--LightBlue);
+}
+
+.NavButtons > div > a:hover{
+    color: rgb(4, 143, 97);
+    text-shadow: -10px -10px rgb(211, 211, 211);
+}
+
+.overview{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+
+.nav{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.nav:first-child {
+    width: 50%;
+}
+
+.NavButtons{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+}
+
+.NavButtons > div{
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    color: var(--LightBlue);
+    font-family: "Qwitcher Grypen", cursive;
+    font-style: normal;
+    justify-content: center;
+}
+
+.nav-title{
+    color: var(--LightBlue);
+    font-family: "Qwitcher Grypen", cursive;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 60vw;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main > div{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+
+
+.Main-Title{
+    text-wrap: wrap;
+    color: var(--LightBlue);
+    font-family: "Qwitcher Grypen", cursive;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+p{
+    color: grey;
+    font-size: 17px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.MainButtonsdiv{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.MainButton1{
+    background-color: var(--LightBlue);
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    border: 1px white solid;
+    cursor: pointer;
+}
+
+.MainButton2{
+    background-color: grey;
+    color: black;
+    border-radius: 50px;
+    padding:15px;
+    border: 1px white solid;
+    cursor: pointer;
+}
+
+
+.tenor-gif-embed{
+    border-radius: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 10vh;
+    border-top: 1px solid black;
+}
+
+.footer > span > a{
+    color: var(--LightBlue);
+    text-decoration: none;
+}
+
+.footer > span > a:visited{
+    color: var(--LightBlue);
+}
